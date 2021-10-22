@@ -1,19 +1,8 @@
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 1em;
-  margin: 1em;
   position: relative;
+  width: 100%;
 }
 
 /*animaciones*/
@@ -70,7 +59,7 @@ a:hover {
 }
 
 .navbar .nav-link {
-  color: red !important;
+  color: #684609 !important;
 }
 
 .article {
@@ -194,7 +183,7 @@ a:hover {
           flex-flow: row wrap;
   border: solid 2px #9c5321;
   z-index: 5;
-  max-width: 280px;
+  max-width: 8em;
   padding: 1em;
   margin: 1em;
   position: fixed;
