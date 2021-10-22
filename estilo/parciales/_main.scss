@@ -1,0 +1,82 @@
+   
+   .article{
+       display: flex;
+   
+        padding: 1rem;
+        margin: 1rem;
+        background-color: rgba(236, 170, 72, 0.849);
+        .article__p{ 
+            display: flex;
+            flex-flow: row wrap;
+            text-decoration: none;
+            color: #7e550b;
+            text-align: left;
+            font-weight: bolder;
+            font-size: 2rem;
+            font-family: 'Josefin Sans', serif;
+            padding: 2em;
+            margin: 1em;
+            word-spacing: 1px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+        
+    }
+.article__pn{
+        display: flex;
+        flex-flow: row wrap;
+
+    .article__pn{
+        display: flex;
+        flex-flow: row wrap;
+        color: #a8720e;
+        text-align: left;
+        font-weight: normal;
+        font-size: 1.5em;
+        font-family: 'Josefin Sans', serif;
+        padding: 1em;
+        margin: 1em;
+        font-style: italic;
+    }
+    .article__pns{
+        display: flex;
+        flex-flow: row wrap;
+        text-decoration: underline rgb(179, 137, 25);
+        color: #7c550c;
+        text-align: left;
+        font-weight: bolder;
+        font-size: 1.7em;
+        font-family: 'Josefin Sans', serif;
+        padding: 2em;
+        margin: 1em;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
+}
+.section{
+    padding: 1em;
+    margin: 1em;
+    .section__cards{
+        padding: 1em;
+        margin: 1em;
+        .section__cards__text{
+            background-color: #976211;
+            color: antiquewhite;
+            border: solid rgb(112, 79, 18);
+        }
+    }
+}
+.card-title{
+    color:beige !important;
+    font-family: 'Josefin Sans', serif;
+ }
+
+.card-text{
+    color:beige !important;
+    font-family: 'Josefin Sans', serif;
+}
+.text-muted{
+   color:beige !important;
+   font-style: italic;
+   font-family: 'Josefin Sans', serif;
+}

@@ -1,0 +1,57 @@
+@import "./variables";
+.header{
+    display: flex;
+   flex-flow: row wrap;
+   width: fit-content;
+   justify-content:space-around;
+    padding-top: 1em;
+    margin: 1em;
+   position: relative;
+}
+          /*animaciones*/
+          a:hover{        
+            background-color: beige; 
+            transform:scale(105%,105%) ;
+            transition: 1.5s;
+            z-index: 8;
+         }
+    .ache{
+        display: flexbox;
+        flex-flow: column nowrap;
+        padding: 1em;
+        margin: 1em;
+        margin-top: 4em;
+        
+        position: relative;
+         .ache__uno{
+        text-decoration: none;
+            text-decoration: underline #f0b03b;
+            color: $colorLogo;
+            font-size: 2em;
+            text-align: center;
+            font-family: 'Josefin Slab', serif;
+            font-weight: bolder;
+            padding-top: 0.4em;
+            padding-bottom: 0.7em;
+    }
+    .ache__dos{
+        text-decoration: none;
+        color: $colorLogo;
+        font-size: 1.6em;
+        text-align: center;
+        font-family: 'Josefin Slab', serif;
+        font-weight: bolder;
+        position: relative; 
+        padding-top: 0.3em;
+        }
+    }
+    .navbar{
+        background-color:  rgba(165, 120, 52, 0.671) !important ; 
+        font-family: 'Josefin Slab', serif ;
+        font-weight: 900;
+        font-size: 2em;
+    .nav-link{
+        color:red !important;
+    }
+    }
+    

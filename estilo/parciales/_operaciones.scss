@@ -1,0 +1,10 @@
+
+
+
+$paleta: ("index": #9b6c1b86 , "nosotros": #c4a15f89, "hotsale": #c59c4f76, "temporada": #c59c4f76,"contacto": #ad802c50 ,"productos": #92691c86);
+
+@each $seccion, $color in $paleta {
+    .backg#{$seccion} {
+        background-color: $color;
+    }
+}

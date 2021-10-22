@@ -1,0 +1,46 @@
+@import "./parciales/variables";
+
+
+
+.caja{
+    display: flex;
+   flex-flow: column;
+   width: fit-content;
+   height: auto;
+   border: $bordeCaja;
+   padding: 1rem;
+   margin: 1rem;
+   position: relative;
+   background-color: rgba(179, 138, 84, 0.575);
+    .caja__imagen{
+        display: flex;
+        flex-flow: column;
+        width: 96%;
+        max-width: 640px;
+        width: auto;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+    }
+    .caja__texto{
+        color: #a18143;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3vh;
+        word-spacing: 30;
+        background-color: rgba(241, 229, 156, 0.747);
+        display: flex;
+        flex-flow: row wrap;
+        width: fit-content;
+        justify-content:space-around;
+        padding: 1rem;
+        margin: 1rem;
+        position: relative;
+    }
+}
+.cajacarousel{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+}
