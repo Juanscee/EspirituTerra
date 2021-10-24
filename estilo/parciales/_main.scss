@@ -1,9 +1,8 @@
    
    .article{
-       display: flex;
-   
-        padding: 1rem;
-        margin: 1rem;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 1em;
         background-color: rgba(236, 170, 72, 0.849);
         .article__p{ 
             display: flex;
@@ -12,10 +11,10 @@
             color: #7e550b;
             text-align: left;
             font-weight: bolder;
-            font-size: 2rem;
+            font-size: 1.5em;
             font-family: 'Josefin Sans', serif;
-            padding: 2em;
-            margin: 1em;
+            padding: 0.6em;
+            margin: 0.6em;
             word-spacing: 1px;
             letter-spacing: 1px;
             text-transform: capitalize;

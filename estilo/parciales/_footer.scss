@@ -1,19 +1,16 @@
 .footer{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    background-color:#eea61f49;
-    z-index: 8;
+    display: block;
+    margin-top: 1em;
     .footer__div{
-        display: flex;
-        flex-flow: row nowrap;
-
-        width: 100vw;
+        display: block;
+        overflow: hidden;
+        width: fit-content;
         border: dashed 2px rgba(136, 115, 58, 0.884);
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
         padding: 1em;
-        margin: 1em;
         position: relative;
-        justify-content: center;
         background-color: rgba(189, 144, 87, 0.726);
         text-decoration: none;
         text-decoration: underline #f0b03b;

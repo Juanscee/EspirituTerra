@@ -73,8 +73,11 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  margin: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 1em;
   background-color: rgba(236, 170, 72, 0.849);
 }
 
@@ -90,10 +93,10 @@ a:hover {
   color: #7e550b;
   text-align: left;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5em;
   font-family: 'Josefin Sans', serif;
-  padding: 2em;
-  margin: 1em;
+  padding: 0.6em;
+  margin: 0.6em;
   word-spacing: 1px;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -254,33 +257,22 @@ a:hover {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
-  background-color: #eea61f49;
-  z-index: 8;
+  display: block;
+  margin-top: 1em;
 }
 
 .footer .footer__div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  width: 100vw;
+  display: block;
+  overflow: hidden;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border: dashed 2px rgba(136, 115, 58, 0.884);
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 1em;
-  margin: 1em;
   position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: rgba(189, 144, 87, 0.726);
   text-decoration: none;
   -webkit-text-decoration: underline #f0b03b;
@@ -314,51 +306,6 @@ a:hover {
 
 .backgproductos {
   background-color: #92691c86;
-}
-
-/*grid del index*/
-#grilla {
-  display: -ms-grid;
-  display: grid;
-  height: auto;
-      grid-template-areas: "aUno  aDos" "footer footer";
-  -ms-grid-rows: auto 1fr;
-      grid-template-rows: auto 1fr;
-  -ms-grid-columns: 2fr 1fr;
-      grid-template-columns: 2fr 1fr;
-  gap: 10px;
-}
-
-/*disposicion de las areas*/
-footer {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: footer;
-}
-
-article#aUno {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: aUno;
-}
-
-aside#aDos {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: aDos;
-}
-
-/* media queries para celulares */
-@media only screen and (max-width: 425px) {
-  /* grilla para celulares L*/
-  #grilla {
-    display: -ms-grid;
-    display: grid;
-    height: auto;
-    width: auto;
-        grid-template-areas: "aUno" "aDos" "footer";
-  }
 }
 
 .caja {
