@@ -3,7 +3,13 @@
 
    justify-content:space-around;
    position: relative;
-   width: 100%;
+   
+   .container-fluid{
+    padding: 0 !important;
+        }
+        .navbar-brand{
+            padding: 1em;
+        }
 }
           /*animaciones*/
           a:hover{        

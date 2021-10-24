@@ -2,7 +2,14 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   position: relative;
-  width: 100%;
+}
+
+.header .container-fluid {
+  padding: 0 !important;
+}
+
+.header .navbar-brand {
+  padding: 1em;
 }
 
 /*animaciones*/
@@ -173,6 +180,11 @@ a:hover {
   font-family: 'Josefin Sans', serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body .body__span {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,8 +260,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 1em;
-  padding: 1em;
+  width: 100vw;
   background-color: #eea61f49;
   z-index: 8;
 }
@@ -262,13 +273,14 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100vw;
   border: dashed 2px rgba(136, 115, 58, 0.884);
   padding: 1em;
-  margin: 0 auto;
+  margin: 1em;
   position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: rgba(189, 144, 87, 0.726);
   text-decoration: none;
   -webkit-text-decoration: underline #f0b03b;
