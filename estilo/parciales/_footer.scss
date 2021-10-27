@@ -1,6 +1,8 @@
 .footer{
     display: block;
     margin-top: 1em;
+    background-color: rgba(189, 144, 87, 0.726);
+    width: 100%;
     .footer__div{
         display: block;
         overflow: hidden;
@@ -11,13 +13,13 @@
         margin-bottom: 1em;
         padding: 1em;
         position: relative;
-        background-color: rgba(189, 144, 87, 0.726);
+        
         text-decoration: none;
         text-decoration: underline #f0b03b;
         color: #97670d;
         text-align: center;
         font-weight: 900;
         font-family: 'Josefin Slab', serif;
-        font-size: 2em;
+        font-size: 1.4em;
     }
 }

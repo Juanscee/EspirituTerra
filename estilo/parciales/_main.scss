@@ -23,9 +23,10 @@
     }
 .article__pn{
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
+        max-width: 650px;
 
-    .article__pn{
+    .article__pns{
         display: flex;
         flex-flow: row wrap;
         color: #a8720e;
@@ -37,20 +38,7 @@
         margin: 1em;
         font-style: italic;
     }
-    .article__pns{
-        display: flex;
-        flex-flow: row wrap;
-        text-decoration: underline rgb(179, 137, 25);
-        color: #7c550c;
-        text-align: left;
-        font-weight: bolder;
-        font-size: 1.7em;
-        font-family: 'Josefin Sans', serif;
-        padding: 2em;
-        margin: 1em;
-        word-spacing: 1px;
-        letter-spacing: 1px;
-    }
+    
 }
 .section{
     padding: 1em;
@@ -59,7 +47,7 @@
         padding: 1em;
         margin: 1em;
         .section__cards__text{
-            background-color: #976211;
+            background-color: #976211 !important;
             color: antiquewhite;
             border: solid rgb(112, 79, 18);
         }
