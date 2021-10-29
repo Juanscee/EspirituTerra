@@ -42,23 +42,26 @@
       <h5 class="ache__dos" >Stock permanente. Siempre.</h5>
       </div>
     </header>
+
     <section class="article1">
+      <form action="" method="GET" enctype="application/x-www-form-urlencoded">
+            <fieldset class="article__p">
+                <legend>Contactanos!</legend>
         <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
             <label class="form-check-label" for="flexSwitchCheckDefault">¿Es tu primera compra?</label>
           </div>
-        <div class="input-group">
-            <span class="input-group-text">Nombre y apellido</span>
-            <input type="text" aria-label="First name" class="form-control" placeholder="José Luis">
-            <input type="text" aria-label="Last name" class="form-control" placeholder="Perales">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="José Luis Perales">
+            <label for="floatingInput">Nombre y apellido</label>
           </div>
-          <div class="input-group">
-            <span class="input-group-text">Teléfono</span>
-            <input type="text" aria-label="Teléfono" class="form-control" placeholder="0123456789">
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control" id="floatingInput" placeholder="0123456789">
+            <label for="floatingInput">Teléfono</label>
           </div>
-          <div class="input-group">
-            <span class="input-group-text">Email</span>
-            <input type="text" aria-label="Email" class="form-control" placeholder="ejemplo@email.com">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
           </div>
           <div class="input-group mb-3">
             <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
@@ -68,52 +71,15 @@
               <option value="3">Exportador</option>
             </select>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            <label class="form-check-label" for="flexCheckChecked">
-                Deseo recibir el newsletter con novedades y descuentos
-            </label>
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="reload" class="btn btn-outline-primary">Atrás</button>
+            <button type="reset" class="btn btn-outline-primary">Reset</button>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
           </div>
-        <aside>
-        <form action="" method="GET" enctype="application/x-www-form-urlencoded">
-            <fieldset class="article__p">
-                <legend>Contactanos!</legend>
-                 
-                        <div>
-                            <label for="compra">¿Es tu primera compra?</label>
-                            <input type="radio" name="compra" id="compra"
-                            value="Si"> Si
-                            <input type="radio" name="compra" id="compra"
-                            value="No"> No
-                        </div>
-            
-                        <div><label for="Email">Tu Email</label> 
-                            <input name="Tu Email" type="email" name="Tu Email" id="email" placeholder="ejemplo@email.com">
-                        </div>
-             
-                        <div><label for="numero">Tu número</label>  
-                            <input type="tel" name="Tu número" id="numero" placeholder="0123456789">
-                        </div>
-                
-                        <div class="ache__dos"><label for="cumpleaños">Mes de cumpleaños</label> 
-                            <input type="month" name="" id="cumpleaños">
-                        </div>
-              
-                        <div class="ache__dos"><label for="newsletter">Deseo recibir el newsletter con novedades y descuentos</label> 
-                            <input type="checkbox" name="newsletter">
-                        </div>
-              
-                        <div class="ache__dos"> <label for="tipocliente">Tipo de Cliente</label>
-                            <select name="Tipo de cliente" id="tipocliente">
-                                <option value="Mayor">Mayor</option>
-                                <option value="Menor">Menor</option>
-                            </select>
-                        </div>
-            
                         <div class="article">                          
-                            <input type="button" value="Atrás">
-                            <input type="reset" value="Reset">
-                            <input type="submit" value="Enviar">
+                            <input type="button" value="">
+                            <input type="reset" value="">
+                            <input type="submit" value="">
                         </div> 
              </fieldset>
         </form>
