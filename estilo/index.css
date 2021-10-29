@@ -164,6 +164,13 @@ a:hover {
   font-family: 'Josefin Sans', serif;
 }
 
+.article1 {
+  margin: 1em;
+  padding: 1em;
+  left: 40%;
+  max-width: 450px !important;
+}
+
 * {
   margin: 0;
   padding: 0;
