@@ -383,4 +383,9 @@ a:hover {
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
 }
+
+.card {
+  background-color: #a18143 !important;
+  color: #a18143 !important;
+}
 /*# sourceMappingURL=root.css.map */
