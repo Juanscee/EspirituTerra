@@ -34,7 +34,7 @@
             color: $colorLogo;
             font-size: 2em;
             text-align: center;
-            font-family: 'Josefin Slab', serif;
+            font-family: 'Josefin Slab', serif !important;
             font-weight: bolder;
             padding-top: 0.4em;
             padding-bottom: 0.7em;
@@ -44,7 +44,7 @@
         color: $colorLogo;
         font-size: 1.6em;
         text-align: center;
-        font-family: 'Josefin Slab', serif;
+        font-family: 'Josefin Slab', serif !important; 
         font-weight: bolder;
         position: relative; 
         padding-top: 0.3em;
