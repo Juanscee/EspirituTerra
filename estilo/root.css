@@ -245,10 +245,8 @@ a:hover {
 }
 
 .footer {
-  display: block;
   margin-top: 1em;
   background-color: rgba(189, 144, 87, 0.726);
-  width: 100%;
 }
 
 .footer .footer__div {
@@ -423,6 +421,13 @@ a:hover {
   font-weight: bold;
 }
 
+.form-select:focus {
+  border-color: #745123 !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.25rem navajowhite !important;
+          box-shadow: 0 0 0 0.25rem navajowhite !important;
+}
+
 .alert-primary {
   border: none;
   background-color: #bda066d2 !important;
@@ -463,5 +468,11 @@ button:hover {
 .card-header {
   color: #fffbf2;
   font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.blockquote {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 1.2 em !important;
+  overflow: hidden;
 }
 /*# sourceMappingURL=root.css.map */
