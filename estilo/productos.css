@@ -90,6 +90,10 @@
   color: #a18143 !important;
 }
 
+.text-muted {
+  color: #fffbf2 !important;
+}
+
 .form-check-label {
   font-family: 'Josefin Sans', sans-serif !important;
   padding-bottom: 1em !important;
@@ -143,5 +147,22 @@
 
 button:hover {
   background-color: #a55822 !important;
+}
+
+.btn-primary {
+  background-color: #69552d !important;
+  border-color: #4d3c1b;
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.btn-primary:hover {
+  border-color: #cfad63;
+  background-color: #bea97d !important;
+  color: #382e19;
+}
+
+.card-header {
+  color: #fffbf2;
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 /*# sourceMappingURL=productos.css.map */
