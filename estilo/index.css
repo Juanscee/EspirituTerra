@@ -14,7 +14,7 @@
 }
 
 /*animaciones*/
-a:hover {
+.navbar-nav a:hover {
   background-color: beige;
   -webkit-transform: scale(105%, 105%);
           transform: scale(105%, 105%);
@@ -269,6 +269,11 @@ a:hover {
   font-weight: 900;
   font-family: 'Josefin Slab', serif;
   font-size: 1.4em;
+}
+
+.footer .footer__img a {
+  text-decoration: none;
+  background-color: none !important;
 }
 
 .backgindex {

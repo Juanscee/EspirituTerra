@@ -14,12 +14,15 @@
             
 }
           /*animaciones*/
-          a:hover{        
+          .navbar-nav{
+               a:hover{        
             background-color: beige; 
             transform:scale(105%,105%) ;
             transition: 1.5s;
             z-index: 8;
          }
+          }
+         
     .ache{
         display: flexbox;
         flex-flow: column nowrap;
