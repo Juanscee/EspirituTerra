@@ -60,6 +60,23 @@
         font-size: 2em;
     .nav-link{
         color:rgb(104, 70, 9) !important;
+        
     }
     }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
+        padding-left: 1em !important;
+        margin-bottom: 0;
+        list-style: none;
+      
+        .nav-link {
+          padding-right: 0;
+          padding-left: 0;
+        }
+      
+        .dropdown-menu {
+          position: static;
+        }
+      }
     
