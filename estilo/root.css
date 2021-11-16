@@ -1,3 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body .body__span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  border: solid 2px #9c5321;
+  z-index: 5;
+  max-width: 8em;
+  padding: 1em;
+  margin: 1em;
+  position: fixed;
+  right: 1em;
+  background-color: rgba(219, 172, 111, 0.836);
+  color: #a18143;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 3vh;
+  word-spacing: 30;
+  background-color: rgba(241, 229, 156, 0.747);
+}
+
+.body .body__span a {
+  padding: 0.5em;
+  text-decoration: none;
+  color: #6d5e40;
+}
+
+.body .body__span span {
+  -webkit-animation-name: efecto;
+          animation-name: efecto;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  z-index: 3;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    background-color: #f2c97ccc;
+  }
+  50% {
+    background-color: #f3b94dde;
+  }
+  100% {
+    background-color: #f2c97ccc;
+  }
+}
+
+@keyframes efecto {
+  0% {
+    background-color: #f2c97ccc;
+  }
+  50% {
+    background-color: #f3b94dde;
+  }
+  100% {
+    background-color: #f2c97ccc;
+  }
+}
+
+.footer {
+  margin-top: 1em;
+  background-color: rgba(189, 144, 87, 0.726);
+}
+
+.footer .footer__div {
+  display: block;
+  overflow: hidden;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: dashed 2px rgba(136, 115, 58, 0.884);
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  position: relative;
+  text-decoration: none;
+  -webkit-text-decoration: underline #f0b03b;
+          text-decoration: underline #f0b03b;
+  color: #97670d;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.4em;
+}
+
+.footer .footer__img a {
+  text-decoration: none;
+  background-color: none !important;
+}
+
 .header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -191,111 +296,6 @@
   padding: 1em;
   left: 40%;
   max-width: 450px !important;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.body .body__span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  border: solid 2px #9c5321;
-  z-index: 5;
-  max-width: 8em;
-  padding: 1em;
-  margin: 1em;
-  position: fixed;
-  right: 1em;
-  background-color: rgba(219, 172, 111, 0.836);
-  color: #a18143;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: bolder;
-  font-size: 3vh;
-  word-spacing: 30;
-  background-color: rgba(241, 229, 156, 0.747);
-}
-
-.body .body__span a {
-  padding: 0.5em;
-  text-decoration: none;
-  color: #6d5e40;
-}
-
-.body .body__span span {
-  -webkit-animation-name: efecto;
-          animation-name: efecto;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-duration: 4s;
-          animation-duration: 4s;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  z-index: 3;
-}
-
-@-webkit-keyframes efecto {
-  0% {
-    background-color: #f2c97ccc;
-  }
-  50% {
-    background-color: #f3b94dde;
-  }
-  100% {
-    background-color: #f2c97ccc;
-  }
-}
-
-@keyframes efecto {
-  0% {
-    background-color: #f2c97ccc;
-  }
-  50% {
-    background-color: #f3b94dde;
-  }
-  100% {
-    background-color: #f2c97ccc;
-  }
-}
-
-.footer {
-  margin-top: 1em;
-  background-color: rgba(189, 144, 87, 0.726);
-}
-
-.footer .footer__div {
-  display: block;
-  overflow: hidden;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border: dashed 2px rgba(136, 115, 58, 0.884);
-  margin: 0 auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1em;
-  position: relative;
-  text-decoration: none;
-  -webkit-text-decoration: underline #f0b03b;
-          text-decoration: underline #f0b03b;
-  color: #97670d;
-  text-align: center;
-  font-weight: 900;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.4em;
-}
-
-.footer .footer__img a {
-  text-decoration: none;
-  background-color: none !important;
 }
 
 .backgindex {
