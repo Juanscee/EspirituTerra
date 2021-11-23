@@ -8,3 +8,13 @@ $paleta: ("index": #9b6c1b86 , "nosotros": #c4a15f89, "hotsale": #c59c4f76, "tem
         background-color: $color;
     }
 }
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: 0 !important; 
+    margin-left: 0 !important; 
+}
